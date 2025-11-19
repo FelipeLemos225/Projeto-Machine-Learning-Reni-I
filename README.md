@@ -12,14 +12,21 @@ O objetivo é demonstrar a construção completa de experimentos em Machine Lear
 
 Projeto Reni I/
 ├── data/ # Dados (vazio – dataset carregado do sklearn)
+
 ├── figures/ # Gráficos gerados pelos notebooks
+
 ├── models/ # Modelos treinados salvos em .pkl
+
 ├── notebooks/
 │ ├── 01_regressao_linear_california.ipynb
 │ └── 02_logistica_cancer_mama.ipynb
+
 ├── src/ # Scripts auxiliares (se necessário)
+
 ├── requirements.txt
+
 ├── .gitignore
+
 └── README.md
 
 ## 🧠 Regressão Linear – *California Housing*
@@ -84,11 +91,15 @@ Ambos disponíveis na pasta `figures/`.
 ```bash
 .venv\Scripts\Activate.ps1
 
+```
 ### 2. Abrir os notebooks
 
+```bash
 jupyter notebook
 
-🛠 Tecnologias utilizadas
+```
+
+## 🛠 Tecnologias utilizadas
 
 Python 3
 
@@ -104,7 +115,7 @@ Seaborn
 
 Jupyter Notebook
 
-📝 Observações
+## 📝 Observações
 
 Os datasets utilizados são carregados diretamente da biblioteca sklearn.datasets, eliminando a necessidade de arquivos externos.
 Os modelos são salvos no diretório models/ para reuso ou deploy futuro.
